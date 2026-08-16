@@ -61,3 +61,5 @@ document.dispatchEvent(new Event("cys-消去"))
 ## 連絡先
 
 不具合の報告や問い合わせは GitHub のイシューでお願いします。
+
+https://github.com/konamuki0852/CertainlyOpenYoutubeShorts/issues

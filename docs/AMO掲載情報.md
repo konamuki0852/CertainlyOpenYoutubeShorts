@@ -24,7 +24,7 @@ addons.mozilla.org へ**公開（listed）**で登録するときに、フォー
 | ライセンス | MIT |
 | カテゴリ | 動画と音楽 / ユーザーインターフェース |
 | 対応言語 | 日本語 |
-| サポートサイト | GitHub リポジトリの URL |
+| サポートサイト | https://github.com/konamuki0852/CertainlyOpenYoutubeShorts |
 | プライバシーポリシー | `PRIVACY.md` の内容を貼る |
 
 ## 概要（Summary / 250 文字以内）
@@ -78,6 +78,7 @@ Shorts を 1 本送るたびにページ遷移が発生するため、
 これは不具合の原因である SPA 遷移を避けることと引き換えの仕様です。
 
 ソースコードは GitHub で公開しています。
+https://github.com/konamuki0852/CertainlyOpenYoutubeShorts
 ```
 
 ## タグ
