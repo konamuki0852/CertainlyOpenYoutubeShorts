@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "CertainlyYoutubeShorts",
+  "name": "CertainlyOpenYoutubeShorts",
   "version": "1.0.0",
   "description": "クリックした Shorts を確実にその Shorts として開き、その後もチャンネル一覧で選んだ並び順どおりに再生する。",
   "icons": {
@@ -9,7 +9,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "certainly-youtube-shorts@konamuki0852",
+      "id": "certainly-open-youtube-shorts@konamuki0852",
       "strict_min_version": "115.0",
       "data_collection_permissions": {
         "required": ["none"]

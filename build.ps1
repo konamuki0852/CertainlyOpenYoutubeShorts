@@ -17,7 +17,7 @@ $version = $manifest.version
 $distDir = Join-Path $root 'dist'
 if (-not (Test-Path $distDir)) { New-Item -ItemType Directory -Path $distDir | Out-Null }
 
-$zipPath = Join-Path $distDir "CertainlyYoutubeShorts-$version.zip"
+$zipPath = Join-Path $distDir "CertainlyOpenYoutubeShorts-$version.zip"
 if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
 
 # 配布に必要なファイルだけを入れる。README や build.ps1 は含めない。

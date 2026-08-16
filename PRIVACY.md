@@ -1,6 +1,6 @@
 # プライバシーポリシー
 
-**CertainlyYoutubeShorts は、いかなる情報も収集・送信しません。**
+**CertainlyOpenYoutubeShorts は、いかなる情報も収集・送信しません。**
 
 最終更新: 2026-08-16
 

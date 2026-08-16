@@ -1,4 +1,4 @@
-# CertainlyYoutubeShorts
+# CertainlyOpenYoutubeShorts
 
 YouTube チャンネルの Shorts 一覧でサムネイルをクリックしたとき、**クリックした Short ではなく別の Short が再生される**現象を是正する Firefox 拡張機能。
 
@@ -189,7 +189,7 @@ Firefox の自動再生ブロックが働き、`NotAllowedError` で再生が始
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 
-`dist\CertainlyYoutubeShorts-<版>.zip` ができる。`manifest.json` が zip の直下にある必要があるため、
+`dist\CertainlyOpenYoutubeShorts-<版>.zip` ができる。`manifest.json` が zip の直下にある必要があるため、
 エクスプローラーでフォルダを右クリックして圧縮したものは**使えない**（フォルダが1階層挟まる）。
 
 ### 2. AMO にアップロードする
@@ -218,7 +218,7 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 
 ### 注意
 
-- 拡張機能 ID は `certainly-youtube-shorts@konamuki0852`。AMO で「ID が既に使われている」と言われたら
+- 拡張機能 ID は `certainly-open-youtube-shorts@konamuki0852`。AMO で「ID が既に使われている」と言われたら
   `manifest.json` の `browser_specific_settings.gecko.id` を別の値に変えて再アップロードする。
 - `browser_specific_settings.gecko.data_collection_permissions` は AMO の必須項目。
   本アドオンは何も収集・送信しないため `{ "required": ["none"] }` を宣言している。
@@ -236,10 +236,10 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 一時的なアドオンは Firefox を再起動すると消える。常用したい場合は AMO 署名が必要。
 
 **ファイルを更新したら `about:debugging` の「再読み込み」を押すこと。**
-押さないと古いコードが動き続ける。読み込まれている版はコンソールで確認できる。
+押さないと古いコードが動き続ける。読み込まれている版はページのコンソールで確認できる。
 
 ```
-window.__CYS.version
+document.documentElement.dataset.cys
 ```
 
 ## 動かないとき

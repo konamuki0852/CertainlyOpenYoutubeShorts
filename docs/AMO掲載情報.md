@@ -8,7 +8,7 @@ addons.mozilla.org へ**公開（listed）**で登録するときに、フォー
 1. https://addons.mozilla.org/developers/ にログイン
 2. 「新しいアドオンを登録」
 3. 配布方法で **「Mozilla で配布する」** を選ぶ（公開審査に回る）
-4. `dist\CertainlyYoutubeShorts-<版>.zip` をアップロード
+4. `dist\CertainlyOpenYoutubeShorts-<版>.zip` をアップロード
 5. 下記の内容を各欄に入力
 6. 送信して審査を待つ
 
@@ -19,8 +19,8 @@ addons.mozilla.org へ**公開（listed）**で登録するときに、フォー
 
 | 項目 | 内容 |
 | --- | --- |
-| 名前 | CertainlyYoutubeShorts |
-| 拡張機能 ID | `certainly-youtube-shorts@konamuki0852` |
+| 名前 | CertainlyOpenYoutubeShorts |
+| 拡張機能 ID | `certainly-open-youtube-shorts@konamuki0852` |
 | ライセンス | MIT |
 | カテゴリ | 動画と音楽 / ユーザーインターフェース |
 | 対応言語 | 日本語 |
