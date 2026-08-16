@@ -1,0 +1,11 @@
+# build.ps1 が生成する提出用パッケージ。ソースから再生成できるので追跡しない
+dist/
+
+# AMO からダウンロードした署名済みアドオン
+*.xpi
+
+# OS・エディタ
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

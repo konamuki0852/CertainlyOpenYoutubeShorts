@@ -1,0 +1,6 @@
+# 改行コードを環境によらず固定する
+* text=auto eol=lf
+
+# Windows PowerShell 5.1 向けに CRLF を保つ。
+# BOM は改行変換の影響を受けないのでそのまま維持される。
+*.ps1 text eol=crlf

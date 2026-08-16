@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "CertainlyYoutubeShorts",
+  "version": "1.0.0",
+  "description": "クリックした Shorts を確実にその Shorts として開き、その後もチャンネル一覧で選んだ並び順どおりに再生する。",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "certainly-youtube-shorts@local",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["cys.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
